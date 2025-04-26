@@ -1,6 +1,6 @@
 region             = "us-east-1"
-access_key         = "AKIAVRUVQPY6PW56BMFN"
-secret_key         = "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"
+access_key         = ""
+secret_key         = ""
 env_prefix         = "PG_PRACTICE"
 ami                = "ami-0f312279305bbd63e"
 instance_count     = 3
