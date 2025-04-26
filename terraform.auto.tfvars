@@ -1,0 +1,12 @@
+region             = "us-east-1"
+access_key         = ""
+secret_key         = ""
+env_prefix         = "PG_PRACTICE"
+ami                = "ami-0f312279305bbd63e"
+instance_count     = 3
+instance_type      = "t2.micro"
+source_script      = "scripts\\postgres.sh"
+destination_script = "/tmp/postgres.sh"
+ec2_user           = "ec2-user"
+private_key        = "D:\\Study\\terraform\\aws\\terraform\\ssh-keys\\id_ed25519"
+public_key         = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKPbSvHIZUlv1nILpS8TK1grVwAsvSCypdykbP9Vx0AB apamo@AB-LA"
